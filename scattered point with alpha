@@ -1,0 +1,8 @@
+import matplotlib.pyplot as p
+import numpy as np
+x=np.array([10,6,5,9,20])
+y=np.array([12,50,24,45,32])
+color=np.array([13,22,34,14,9])
+size=np.array([10,11,7,8,9])
+p.scatter(x,y,c=color,cmap='viridis',s=size,alpha=0.5)
+p.show()

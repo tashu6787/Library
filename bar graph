@@ -1,0 +1,6 @@
+import matplotlib.pyplot as p
+import numpy as np
+x=np.array(['physics','chemisttry','maths','CS'])
+y=np.array([20,15,30,10])
+p.bar(x,y)
+p.show()

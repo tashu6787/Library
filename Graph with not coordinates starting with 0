@@ -1,0 +1,6 @@
+import matplotlib.pyplot as p
+import numpy as np
+x=np.array([4,6])
+y=np.array([8,50])
+p.plot(x,y)
+p.show()

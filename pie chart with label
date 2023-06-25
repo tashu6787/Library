@@ -1,0 +1,6 @@
+import matplotlib.pyplot as p
+import numpy as np
+x=np.array([10,16,15,19,25])
+l=["Hindi","Science","English","SST","Maths"]
+p.pie(x, labels=l)
+p.show()
